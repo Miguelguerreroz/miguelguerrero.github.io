@@ -163,7 +163,7 @@ main {
 
 .contenedor-hero {
   height: 100vh;
-  background-image: url("../img/hero/img7.jpg");
+  background-image: url("../img/hero/img7.JPG");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -546,7 +546,7 @@ main {
 /* Pie */
 
 .contenedor-pie {
-  background-image: url("../img/hero/img7.jpg");
+  background-image: url("../img/hero/img7.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
