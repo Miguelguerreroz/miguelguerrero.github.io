@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontender</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="./css/lightbox.min.css">
+    <script src="./js/lightbox-plus-jquery.min.js"></script>
+</head>
+
+<body>
+    <main>
+        <!-- Menu -->
+        <!-- <div class="menu">
+            <a href="#hero" class="menu__elemento">Inicio</a>
+            <a href="#aboutMe" class="menu__elemento">About Me</a>
+            <a href="#skills" class="menu__elemento">Skills</a>
+            <a href="#projects" class="menu__elemento">Projects</a>
+            <a href="#certificates" class="menu__elemento">Certificates</a>
+            <a href="#contact" class="menu__elemento">Contact</a>
+        </div> -->
+
+        <!-- Cabecera -->
+        <div class="contenedor-cabecera">
+            <header class="cabecera">
+                <h1 class="cabecera__titulo">FRONTEND</h1>
+                <ul class="head__menu">
+                    <li><a href="#aboutMe" class="head__menu__item">About Me</a></li>
+                    <li><a href="#skills" class="head__menu__item">Skills</a></li>
+                    <li><a href="#projects" class="head__menu__item">Projects</a></li>
+                </ul>
+            </header>
+        </div>
+
+        <!-- Hero -->
+        <div id="hero" class="contenedor-hero">
+            <article class="hero">
+                <div></div>
+                <div class="hero__textos">
+                    <p class="hero__saludo">Hey! <br> I'm Miguel Guerrero</p>
+                    <h2 class="hero__profesion">Frontend Developer</h2>
+                </div>
+
+                <div class="contenedor-mouse">
+                    <div class="mouse">
+                        <div class="mouse__rueda"></div>
+                    </div>
+            </article>
+        </div>
+
+        <!-- Acerca de mi -->
+
+        <div id="aboutMe" class="contenedor-acerca">
+            <article class="acerca">
+                <h3 class="titular">About me</h3>
+                <hr class="separador">
+                <section class="acerca__textos">
+                    <div class="acerca__texto">
+                        <p>I’m a junior frontend developer. I’m focused on JS, HTML, and CSS. I got a background of engineering thanks to my years at the university. I’m right now placed as a self learner and building my path through programming.
+                        </p>
+                        
+                        <p>I love the world of technology and I want to be part of it. I would like to progress in my professional career, not just as a web developer. I want to become a software developer, collaborate with high-performance teams, and be part of the industry that is changing the world.
+                        </p>
+                        <blockquote>
+                            ‘‘ Never stop learning ’’ <br>
+                            <span>~ Platzi</span>
+                        </blockquote>
+                    </div>
+                </section>
+            </article>
+        </div>
+
+        <!-- Habilidades -->
+        <div id="skills" class="contenedor-habilidades">
+            <article class="habilidades">
+                <h3 class="titular">Skills</h3>
+                <hr class="separador">
+                <div class="habilidades__iconos">
+                    <div class="habilidades__icono">
+                        <img class="habilidades__icono__imagen" src="./img/habilidades/icons8-html-50.png" alt="html">
+                        <!-- <h4 class="habilidades__icono__titulo">html</h4> -->
+                    </div>
+                    <div class="habilidades__icono">
+                        <img class="habilidades__icono__imagen" src="./img/habilidades/icons8-css-100.svg" alt="css">
+                        <!-- <h4 class="habilidades__icono__titulo">css</h4> -->
+                    </div>
+                    <div class="habilidades__icono">
+                        <img class="habilidades__icono__imagen" src="./img/habilidades/icons8-javascript-250.svg"
+                            alt="javascript">
+                        <!-- <h4 class="habilidades__icono__titulo">javascript</h4> -->
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <!-- Proyectos -->
+        <article id="projects" class="proyectos">
+            <h3 class="titular">Proyects</h3>
+            <hr class="separador">
+            <div class="cuadricula">
+
+                <a href="./img/proyectos/pro2.png" data-lightbox='images'>
+                    <div class="proyecto">
+                        <div class="proyecto__overlay">
+                            <h4 class="proyecto__titulo">PlatziVideo</h4>
+                            <p>Streaming Platform</p>
+                        </div>
+                        <img class="proyecto__imagen" src="./img/proyectos/pro2.png" alt="proyecto 1 aboyt platzi conference 2019">
+                    </div>
+                </a>
+
+                <a href="./img/proyectos/pro1.png" data-lightbox='images'>
+                    <div class="proyecto">
+                        <div class="proyecto__overlay">
+                            <h4 class="proyecto__titulo">PlatziConf</h4>
+                            <p>Platzi conference in Hawaii</p>
+                        </div>
+                        <img class="proyecto__imagen" src="./img/proyectos/pro1.png" alt="proyecto 2">
+                    </div>
+                </a>
+
+                <a href="./img/proyectos/pro4.png" data-lightbox='images'>
+                    <div class="proyecto">
+                        <div class="proyecto__overlay">
+                            <h4 class="proyecto__titulo">Todo List</h4>
+                        </div>
+                        <img class="proyecto__imagen" src="./img/proyectos/pro4.png" alt="proyecto 2">
+                    </div>
+                </a>
+                
+
+
+                <a href="./img/proyectos/pro3.png" data-lightbox='images'>
+                    <div class="proyecto">
+                        <div class="proyecto__overlay">
+                            <h4 class="proyecto__titulo">Google Clon</h4>
+                        </div>
+                        <img class="proyecto__imagen" src="./img/proyectos/pro3.png" alt="proyecto 2">
+                    </div>
+                </a>
+            </div>
+        </article>
+
+        <!-- Certicados -->
+
+        <article id="certificates" class="certificados">
+            <h3 class="titular">Certificates</h3>
+            <hr class="separador">
+            <div class="certificados-images">
+                <figure class="certificados-image">
+                    <a href="./img/certificates/html.jpg" data-lightbox='certificates'><img src="./img/certificates/html.jpg" alt="Certificate of html"></a>
+                </figure>
+                <figure class="certificados-image">
+                    <a href="./img/certificates/web.jpg" data-lightbox='certificates'><img src="./img/certificates/web.jpg" alt="Certificate of html"></a>
+                </figure>
+                <figure class="certificados-image">
+                    <a href="./img/certificates/front.jpg" data-lightbox='certificates'><img src="./img/certificates/front.jpg" alt="Certificate of html"></a>
+                </figure>
+                <figure class="certificados-image">
+                    <a href="./img/certificates/html-css.jpg" data-lightbox='certificates'><img src="./img/certificates/html-css.jpg" alt="Certificate of html"></a>
+                </figure>
+                <figure class="certificados-image">
+                    <a href="./img/certificates/js1.jpg" data-lightbox='certificates'><img src="./img/certificates/js1.jpg" alt="Certificate of html"></a>
+                </figure>
+                <figure class="certificados-image">
+                    <a href="./img/certificates/js2.jpg" data-lightbox='certificates'><img src="./img/certificates/js2.jpg" alt="Certificate of html"></a>
+                </figure>
+                <figure class="certificados-image">
+                    <a href="./img/certificates/js3.jpg" data-lightbox='certificates'><img src="./img/certificates/js3.jpg" alt="Certificate of html"></a>
+                </figure>
+                <figure class="certificados-image">
+                    <a href="./img/certificates/bootstrap.jpg" data-lightbox='certificates'><img src="./img/certificates/bootstrap.jpg" alt="Certificate of html"></a>
+                </figure>
+                <figure class="certificados-image">
+                    <a href="./img/certificates/responsive.jpg" data-lightbox='certificates'><img src="./img/certificates/responsive.jpg" alt="Certificate of html"></a>
+                </figure>
+            </div>
+        </article>
+
+        <!-- Contacto -->
+
+        <div id="contact" class="contenedor-contacto">
+            <article class="contacto">
+                <h3 class="titular">Contact me</h3>
+                <hr class="separador">
+                <h5 class="contacto__texto">If you have any ideas, projects or just any questions, you can use the following form to contact me
+                </h5>
+
+                <!-- Formulario -->
+
+                <form class="formulario" action="correos.php" method="POST">
+                    <input required type="text" class="formulario__input" placeholder="Name" name="nombre">
+                    <input required type="email" class="formulario__input" placeholder="Email" name="email">
+                    <!-- <input type="number" class="formulario__input" placeholder="Phone number" name="number"> -->
+                    <textarea required name="" id="" cols="30" rows="10" placeholder="Message" name="message"></textarea>
+                    <input type="submit" value="Send" class="formulario__submit">
+                </form>
+
+            </article>
+        </div>
+
+        <!-- Pie -->
+
+        <div class="contenedor-pie">
+            <footer class="pie">
+                <h6 class="pie__copyright">Copyright 2020</h6>
+                <div class="pie__social">
+                    <a href="" class="pie__enlace"><img class="pie__redes__icon" src="./img/pie/icons8-facebook-100.png"
+                            alt="facebook"></a>
+
+                    <a href="" class="pie__enlace"><img class="pie__redes__icon"
+                            src="./img/pie/icons8-instagram-100.png" alt="instagram"></a>
+
+                    <a href="" class="pie__enlace"><img class="pie__redes__icon" src="./img/pie/icons8-twitter-100.png"
+                            alt="twitter"></a>
+
+                </div>
+            </footer>
+        </div>
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
